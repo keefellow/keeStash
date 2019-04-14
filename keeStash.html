@@ -151,6 +151,8 @@ Error message and password prompt
 
 <li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/save-wiki</li>
 
+<li>$:/config/RelinkOnRename</li>
+
 <li>$:/core</li>
 
 <li>$:/core/ui/SideBar/More</li>
@@ -187,11 +189,15 @@ Error message and password prompt
 
 <li>$:/state/tab/sidebar--1835078512</li>
 
+<li>$:/state/toc/Contents-A selection of my work-209360082</li>
+
 <li>$:/state/toc/Contents-Topic1-209360082</li>
 
 <li>$:/state/toc/Contents-Volume 1 (April 2019)-209360082</li>
 
 <li>$:/state/toc/Contents/Volume 1 (April 2019)-1. 14 April 2019-209360082</li>
+
+<li>$:/state/toc/Contents/Volume 1 (April 2019)-Issue 1 : 14 April 2019-209360082</li>
 
 <li>$:/StoryList</li>
 
@@ -389,15 +395,27 @@ Error message and password prompt
 
 <li>$:/view</li>
 
-<li>1. 14 April 2019</li>
+<li>A selection of my work</li>
 
 <li>About</li>
 
+<li>Comparing the effects of goal types in a walking session with healthy adults: Preliminary evidence for open goals in physical activity</li>
+
 <li>Contents</li>
+
+<li>Draft of 'Moral Foundations Twitter Corpus: A collection of 35k tweets annotated for moral sentiment'</li>
 
 <li>Help</li>
 
+<li>Issue 1 : 14 April 2019</li>
+
+<li>Mindfulness and its relevance for sports coaches adopting nonlinear pedagogy</li>
+
 <li>Moral Foundations Twitter Corpus: A collection of 35k tweets annotated for moral sentiment</li>
+
+<li>Personality predicts words in favorite songs</li>
+
+<li>Reflections on athletes’ mindfulness skills development: Fitts and Posner’s (1967) three stages of learning</li>
 
 <li>Research in Social Psychology has changed between 2011 and 2016: Larger sample sizes, more self-report measures, and more online studies.</li>
 
@@ -452,6 +470,9 @@ Error message and password prompt
 </div>
 <div created="20171209154306033" modified="20171209154846396" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/save-wiki">
 <pre>show</pre>
+</div>
+<div created="20190414030617275" modified="20190414030617275" title="$:/config/RelinkOnRename">
+<pre>yes</pre>
 </div>
 <div author="JeremyRuston" core-version="&gt;=5.0.0" dependents="" description="TiddlyWiki5 core" list="readme" plugin-priority="0" plugin-type="plugin" title="$:/core" type="application/json" version="5.1.15">
 <pre>{
@@ -8756,7 +8777,7 @@ Error message and password prompt
 <pre>&lt;$macrocall $name=&quot;timeline&quot; format={{$:/language/RecentChanges/DateFormat}}/&gt;
 </pre>
 </div>
-<div caption="{{$:/language/SideBar/Tools/Caption}}" created="20171209151940500" modified="20190414024133561" side-bar="tabs" tags="" title="$:/core/ui/SideBar/Tools">
+<div caption="{{$:/language/SideBar/Tools/Caption}}" created="20171209151940500" modified="20190414053120769" side-bar="tabs" tags="" title="$:/core/ui/SideBar/Tools">
 <pre>\define lingo-base() $:/language/ControlPanel/
 \define config-title()
 $:/config/PageControlButtons/Visibility/$(listItem)$
@@ -8918,16 +8939,22 @@ $:/config/PageControlButtons/Visibility/$(listItem)$
 <div created="20171209153326544" modified="20190414023807534" title="$:/state/tab-1749438307">
 <pre>$:/core/ui/ControlPanel/Info</pre>
 </div>
-<div created="20171209151901920" modified="20190414024136438" title="$:/state/tab/sidebar--1835078512">
+<div created="20171209151901920" modified="20190414053124121" title="$:/state/tab/sidebar--1835078512">
 <pre>Contents</pre>
+</div>
+<div created="20190414030641885" modified="20190414044105131" title="$:/state/toc/Contents-A selection of my work-209360082">
+<pre>open</pre>
 </div>
 <div created="20171209153748245" modified="20171211021839024" title="$:/state/toc/Contents-Topic1-209360082">
 <pre>open</pre>
 </div>
-<div created="20190414020542832" modified="20190414020542832" title="$:/state/toc/Contents-Volume 1 (April 2019)-209360082">
+<div created="20190414020542832" modified="20190414044113505" title="$:/state/toc/Contents-Volume 1 (April 2019)-209360082">
 <pre>open</pre>
 </div>
-<div created="20190414020706401" modified="20190414024140054" title="$:/state/toc/Contents/Volume 1 (April 2019)-1. 14 April 2019-209360082">
+<div created="20190414020706401" modified="20190414025023022" title="$:/state/toc/Contents/Volume 1 (April 2019)-1. 14 April 2019-209360082">
+<pre>close</pre>
+</div>
+<div created="20190414025923688" modified="20190414044115779" title="$:/state/toc/Contents/Volume 1 (April 2019)-Issue 1 : 14 April 2019-209360082">
 <pre>open</pre>
 </div>
 <div list="" title="$:/StoryList">
@@ -9634,7 +9661,7 @@ This plugin also requires the JSZip plugin ([[$:/plugins/tiddlywiki/jszip]]) to 
 <div author="JeremyRuston" core-version="&gt;=5.0.0" created="20190414023637474" dependents="" description="Basic theme" modified="20190414023637474" name="Vanilla" original-plugin-type="theme" original-tags="" original-title="$:/themes/tiddlywiki/vanilla" original-type="application/json" plugin-priority="0" server-url="https://tiddlywiki.com/library/v5.1.15/index.html" tags="$:/tags/RemoteAssetInfo" title="$:/temp/RemoteAssetInfo/https://tiddlywiki.com/library/v5.1.15/index.html/$:/themes/tiddlywiki/vanilla" type="text/vnd.tiddlywiki" version="5.1.16">
 <pre></pre>
 </div>
-<div created="20171209152543022" modified="20190414024135442" title="$:/temp/search">
+<div created="20171209152543022" modified="20190414053123172" title="$:/temp/search">
 <pre></pre>
 </div>
 <div created="20190414023637397" modified="20190414023637397" tags="$:/tags/ServerConnection" title="$:/temp/ServerConnection/https://tiddlywiki.com/library/v5.1.15/index.html" url="https://tiddlywiki.com/library/v5.1.15/index.html">
@@ -9758,16 +9785,25 @@ This plugin also requires the JSZip plugin ([[$:/plugins/tiddlywiki/jszip]]) to 
 <div created="20171209154106778" modified="20171209154115137" title="$:/view">
 <pre>classic</pre>
 </div>
-<div created="20190414020457742" modified="20190414020545380" tags="[[Volume 1 (April 2019)]]" title="1. 14 April 2019">
+<div created="20190414030120419" modified="20190414030621998" tags="Contents" title="A selection of my work">
 <pre></pre>
 </div>
 <div created="20190414015646459" modified="20190414023755708" tags="" title="About">
 <pre>Research articles of interest to me posted.</pre>
 </div>
+<div created="20190414030955952" modified="20190414031109158" tags="[[Issue 1 : 14 April 2019]]" title="Comparing the effects of goal types in a walking session with healthy adults: Preliminary evidence for open goals in physical activity">
+<pre>&lt;html&gt;&lt;div align=&quot;center&quot;&gt;&lt;iframe src=&quot;https://doi.org//10.1016/j.psychsport.2019.01.003&quot; 
+frameborder=&quot;0&quot; width=&quot;100%&quot; height=&quot;600&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;/html&gt;
+</pre>
+</div>
 <div created="20171209152351560" modified="20171209154005259" tags="$:/tags/SideBar" title="Contents">
 <pre>&lt;div class=&quot;tc-table-of-contents&quot;&gt;
 &lt;&lt;toc-selective-expandable 'Contents' sort[title]&gt;&gt; 
 &lt;/div&gt;</pre>
+</div>
+<div created="20190414020557775" draft.of="Moral Foundations Twitter Corpus: A collection of 35k tweets annotated for moral sentiment" draft.title="Moral Foundations Twitter Corpus: A collection of 35k tweets annotated for moral sentiment" modified="20190414031919748" tags="[[Issue 1 : 14 April 2019]] [[natural language processing]]" title="Draft of 'Moral Foundations Twitter Corpus: A collection of 35k tweets annotated for moral sentiment'">
+<pre>&lt;html&gt;&lt;div align=&quot;center&quot;&gt;&lt;iframe src=&quot;https://psyarxiv.com/w4f72&quot; 
+frameborder=&quot;0&quot; width=&quot;100%&quot; height=&quot;600&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;/html&gt;</pre>
 </div>
 <div created="20171209153201678" modified="20171209160644732" tags="" title="Help">
 <pre>Click [[Toggle Sidebar Tabs]] to get to show/hide tabs.&lt;br/&gt;
@@ -9783,11 +9819,26 @@ Learn more about [[TiddlyWiki|https://tiddlywiki.com/]].&lt;br/&gt;
 
 </pre>
 </div>
-<div created="20190414020557775" modified="20190414023004515" tags="[[natural language processing]] [[1. 14 April 2019]]" title="Moral Foundations Twitter Corpus: A collection of 35k tweets annotated for moral sentiment">
+<div created="20190414020457742" modified="20190414053104257" tags="[[Volume 1 (April 2019)]]" title="Issue 1 : 14 April 2019">
+<pre></pre>
+</div>
+<div created="20190414030419605" modified="20190414030644796" tags="[[A selection of my work]] mindfulness" title="Mindfulness and its relevance for sports coaches adopting nonlinear pedagogy">
+<pre>https://doi.org/10.1177/1747954119830819</pre>
+</div>
+<div created="20190414020557775" modified="20190414031141159" tags="[[Issue 1 : 14 April 2019]] [[natural language processing]]" title="Moral Foundations Twitter Corpus: A collection of 35k tweets annotated for moral sentiment">
 <pre>&lt;html&gt;&lt;div align=&quot;center&quot;&gt;&lt;iframe src=&quot;https://psyarxiv.com/w4f72&quot; 
 frameborder=&quot;0&quot; width=&quot;100%&quot; height=&quot;600&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;/html&gt;</pre>
 </div>
-<div created="20190414023009085" modified="20190414023426421" tags="[[research methods]] [[1. 14 April 2019]]" title="Research in Social Psychology has changed between 2011 and 2016: Larger sample sizes, more self-report measures, and more online studies.">
+<div created="20190414031825935" modified="20190414031937878" tags="[[Issue 1 : 14 April 2019]]" title="Personality predicts words in favorite songs">
+<pre>&lt;html&gt;&lt;div align=&quot;center&quot;&gt;&lt;iframe src=&quot;
+https://doi.org/10.1016/j.jrp.2018.11.004&quot; 
+frameborder=&quot;0&quot; width=&quot;100%&quot; height=&quot;600&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;/html&gt;</pre>
+</div>
+<div created="20190414030155065" modified="20190414030707180" tags="[[A selection of my work]] mindfulness" title="Reflections on athletes’ mindfulness skills development: Fitts and Posner’s (1967) three stages of learning">
+<pre>https://doi.org/10.1080/21520704.2018.1549640
+</pre>
+</div>
+<div created="20190414023009085" modified="20190414025935544" tags="[[Issue 1 : 14 April 2019]] [[research methods]]" title="Research in Social Psychology has changed between 2011 and 2016: Larger sample sizes, more self-report measures, and more online studies.">
 <pre>https://doi.org/10.1177/2515245919838781
 
 </pre>
